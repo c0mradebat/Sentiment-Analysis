@@ -1,4 +1,4 @@
-Here's a **professional and polished `README.md`** tailored for your project, referencing the Amazon Alexa dataset without mentioning local datasets or folder structures:
+
 
 ---
 
@@ -117,7 +117,7 @@ For questions or suggestions, feel free to reach out via [GitHub Issues](https:/
 
 ---
 
-© 2025 — Built with ❤️ using Flask and Streamlit
+© 2025 — Built with ❤️ 
 
 ```
 
