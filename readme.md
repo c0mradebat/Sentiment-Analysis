@@ -1,95 +1,127 @@
-Here’s a complete `README.md` file for your sentiment analysis project with Flask + Streamlit:
+Here's a **professional and polished `README.md`** tailored for your project, referencing the Amazon Alexa dataset without mentioning local datasets or folder structures:
 
 ---
 
-```markdown
-# Sentiment Analysis Web App
+````markdown
+# Sentiment Analysis Web Application
 
-This project is a **sentiment analysis** application built using **Flask** for the backend (API) and **Streamlit** for the frontend interface. It supports **single-text prediction** as well as **bulk prediction from CSV files**. The model classifies text into **Positive** or **Negative** sentiments.
-
----
-
-## 📁 Folder Structure
-
-```
-
-├── api.py                  # Flask backend
-├── main.py                 # Streamlit frontend
-├── Models/                 # Contains ML model, scaler, and vectorizer
-│   ├── model\_xgb.pkl
-│   ├── scaler.pkl
-│   └── countVectorizer.pkl
-├── templates/
-│   └── landing.html        # Flask landing page
-├── .gitignore              # Git ignore file (excludes datasets)
-├── README.md               # Project documentation
-└── dataset/                # Ignored folder with raw data (not pushed to GitHub)
-
-````
+This project is a full-stack sentiment analysis web application that uses **machine learning** to classify text as **Positive** or **Negative**. It is built with a **Flask-based REST API** on the backend and a **Streamlit interface** on the frontend. The model is trained on the **Amazon Alexa Reviews dataset**, a publicly available dataset released by Amazon.
 
 ---
 
-## 🔧 Setup Instructions
+## 💡 Overview
 
-### 1. Clone the repo
+- Predict sentiment from individual sentences.
+- Perform batch sentiment analysis by uploading a CSV file.
+- Visualize sentiment distribution with a pie chart.
+- Download predictions as a CSV file.
+
+---
+
+## 🚀 Technologies Used
+
+- **Python 3**
+- **Flask** — RESTful API backend
+- **Streamlit** — Interactive frontend interface
+- **Scikit-learn** & **XGBoost** — Machine learning model
+- **NLTK** — Text preprocessing and stemming
+- **Pandas, Matplotlib** — Data manipulation and visualization
+
+---
+
+## 📊 Dataset
+
+The model is trained on the [Amazon Alexa Reviews dataset](https://www.kaggle.com/sid321axn/amazon-alexa-reviews), which contains thousands of customer reviews labeled as positive or negative.
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 ````
 
-### 2. Create virtual environment
+### 2. Create and Activate Virtual Environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate        # On Linux/macOS
-venv\Scripts\activate           # On Windows
+source venv/bin/activate        # macOS/Linux
+venv\Scripts\activate           # Windows
 ```
 
-### 3. Install requirements
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-If `requirements.txt` doesn't exist, install manually:
-
-```bash
-pip install flask streamlit pandas scikit-learn matplotlib nltk xgboost
-```
-
-Also download NLTK stopwords:
-
-```python
-import nltk
-nltk.download('stopwords')
-```
+> Make sure to run:
+>
+> ```python
+> import nltk
+> nltk.download('stopwords')
+> ```
 
 ---
 
-## 🚀 Run the App
+## 📦 Running the Application
 
-### 1. Start the Flask API server
+### Step 1: Start Flask API
 
 ```bash
 python api.py
 ```
 
-### 2. In a separate terminal, run the Streamlit app
+### Step 2: Start Streamlit Frontend (in a new terminal)
 
 ```bash
 streamlit run main.py
 ```
 
-Open the link shown in the terminal (usually `http://localhost:8501`).
+Navigate to the URL shown in your terminal (usually `http://localhost:8501`).
 
 ---
 
-## 📌 Features
+## 🖼️ Features
 
-* 🔍 Predict sentiment for a **single sentence**
-* 📂 Upload CSV with a `Sentence` column to get **bulk predictions**
-* 📊 Pie chart for sentiment distribution
-* 💾 Download predictions as a `.csv` file
+* **Single Sentence Prediction**
+  Input a sentence and instantly get the predicted sentiment.
+
+* **Bulk Prediction via CSV Upload**
+  Upload a CSV with a column named `Sentence` and receive predicted sentiments for each row.
+
+* **Graphical Insights**
+  Automatically generated pie chart showing sentiment distribution.
+
+* **CSV Download**
+  Download the results with predictions directly from the app.
 
 ---
+
+## 📄 Example Input Format (CSV)
+
+| Sentence                   |
+| -------------------------- |
+| I love this product!       |
+| Alexa does not understand. |
+| Worst experience ever.     |
+
+---
+
+## 📬 Contact
+
+For questions or suggestions, feel free to reach out via [GitHub Issues](https://github.com/<your-username>/<your-repo>/issues).
+
+---
+
+© 2025 — Built with ❤️ using Flask and Streamlit
+
+```
+
+---
+
+Let me know if you'd like the `requirements.txt` or personalized links filled in with your GitHub username.
+```
