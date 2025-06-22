@@ -5,7 +5,7 @@
 ````markdown
 # Sentiment Analysis Web Application
 
-This project is a full-stack sentiment analysis web application that uses **machine learning** to classify text as **Positive** or **Negative**. It is built with a **Flask-based REST API** on the backend and a **Streamlit interface** on the frontend. The model is trained on the **Amazon Alexa Reviews dataset**, a publicly available dataset released by Amazon.
+This project is a full-stack sentiment analysis web application that uses machine learning to classify text as **Positive** or **Negative**. It is built with a **Flask-based REST API** on the backend and a **Streamlit interface** on the frontend. The model is trained on the **Amazon Alexa Reviews dataset**, a publicly available dataset released by Amazon.
 
 ---
 
@@ -119,9 +119,4 @@ For questions or suggestions, feel free to reach out via [GitHub Issues]
 
 © 2025 — Built with ❤️ 
 
-```
 
----
-
-
-```
