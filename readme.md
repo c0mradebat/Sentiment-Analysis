@@ -40,8 +40,8 @@ The model is trained on the [Amazon Alexa Reviews dataset](https://www.kaggle.co
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/<your-username>/<your-repo>](https://github.com/c0mradebat/Sentiment-Analysis.git
+cd Sentiment-Analysis
 ````
 
 ### 2. Create and Activate Virtual Environment
@@ -113,7 +113,7 @@ Navigate to the URL shown in your terminal (usually `http://localhost:8501`).
 
 ## 📬 Contact
 
-For questions or suggestions, feel free to reach out via [GitHub Issues](https://github.com/<your-username>/<your-repo>/issues).
+For questions or suggestions, feel free to reach out via [GitHub Issues]
 
 ---
 
@@ -123,5 +123,5 @@ For questions or suggestions, feel free to reach out via [GitHub Issues](https:/
 
 ---
 
-Let me know if you'd like the `requirements.txt` or personalized links filled in with your GitHub username.
+
 ```
